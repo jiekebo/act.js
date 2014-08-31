@@ -1,0 +1,32 @@
+{
+  "name": "act.js",
+  "version": "0.9.0",
+  "homepage": "https://github.com/jiekebo/act.js",
+  "authors": [
+    "Jacob Salomonsen <jiekebo@gmail.com>"
+  ],
+  "description": "Framework for handling undoable actions in a web app.",
+  "main": "lib/act.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "dependencies": {
+    "lodash": "2.4.1",
+    "q": "2.0.2"
+  },
+  "keywords": [
+    "undo",
+    "redo",
+    "persist"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
